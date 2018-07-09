@@ -40,12 +40,7 @@ public class PigLatinGui {
 
     public void eventPigLatinGui(){
 
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                clickEvent();
-            }
-        });
+        button.addActionListener(e -> clickEvent());
 
 
     }
